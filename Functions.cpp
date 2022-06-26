@@ -27,3 +27,28 @@ void SmallestAndHigherNumber(int array[], int size){
     cout << "Smallest number: " << min << endl;
 
 }
+
+
+void SmallestAndHigherNumber(int array[]){
+    int element, max = 0, min = 0;
+    for(int i = 0; i < sizeof(array); i++){
+        bool arrayIsNull = array == NULL ? true : false;
+
+        if(arrayIsNull){
+            max = element;
+            min = element;
+        }
+
+        else if(array[i] > max){
+            max = array[i];
+        }
+
+        else if(array[i] < min){
+            min = array[i];
+        }
+    }
+    cout << "Higher number: " << max << endl;
+    cout << "Smallest number: " << min << endl;
+
+}
+

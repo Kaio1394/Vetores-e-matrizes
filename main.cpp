@@ -7,12 +7,9 @@ using namespace std;
 
 int main()
 {
-    int size;
-    cout << "Say us size of array: " << endl;
-    cin >> size;
-    int array[size];
+    int array[] = {5, 0, 11, 88, 20};
 
-    SmallestAndHigherNumber(array, size);
+    SmallestAndHigherNumber(array);
     return 0;
 }
 
