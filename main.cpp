@@ -5,13 +5,13 @@
 using namespace std;
 
 
-
 int main()
 {
-    //int array[] = {5, 2, 11, 1, 20};
-    std::vector<int> array = {5, 2, 11, 1, 20, 55, -1};
+    int array[] = {5, 2, 11, 1, 20, 13};
 
-    SmallestAndHigherNumber(array);
+    //DuplicateVector(array, 6);
+    //ShowVector(array, 6);
+    ShowVector(InverterVector(array, 6), 6);
     return 0;
 }
 
