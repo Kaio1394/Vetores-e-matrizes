@@ -1,10 +1,14 @@
 # depslib dependency file v1.0
-1656250293 source:c:\users\kaios\onedrive\documents\estudos-c-plus\matrizes-e-vetores\matrizesevetores\functions.cpp
+1656256342 source:c:\users\kaios\onedrive\documents\estudos-c-plus\matrizes-e-vetores\matrizesevetores\functions.cpp
 	<iostream>
+	<array>
+	<vector>
 
-1656250081 source:c:\users\kaios\onedrive\documents\estudos-c-plus\matrizes-e-vetores\matrizesevetores\main.cpp
+1656256244 source:c:\users\kaios\onedrive\documents\estudos-c-plus\matrizes-e-vetores\matrizesevetores\main.cpp
 	<iostream>
 	"Header.h"
+	<vector>
 
-1656250140 c:\users\kaios\onedrive\documents\estudos-c-plus\matrizes-e-vetores\matrizesevetores\header.h
+1656255716 c:\users\kaios\onedrive\documents\estudos-c-plus\matrizes-e-vetores\matrizesevetores\header.h
+	<vector>
 
